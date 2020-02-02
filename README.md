@@ -31,10 +31,10 @@ $ npm run dev
 # localhost:3000/graphql
 mutation {
   createUser(
-    login: "test login 6",
-    password: "test pass6",
-    email: "email6@email.com",
-    phone: 789451246,
+    login: "admin",
+    password: "adminpass",
+    email: "myemail@gmail.com",
+    phone: 9998887766,
   ) {
     login
   }
